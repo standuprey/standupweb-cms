@@ -1,0 +1,221 @@
+@CHARSET "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    padding: 10px 0 5px 0;
+}
+
+img {
+    border: 0px;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    background: url('../images/simpleCMSheader.png') no-repeat top left;
+}
+
+.hline {
+    height: 2px;
+    width: 100%;
+    background: url('../images/line.png') repeat-x top left;
+}
+
+.headerform {
+    margin-left: 272px;
+}
+
+.headerform div, .headerform div input {
+    display: inline;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.input:focus, .input:hover {
+    background-color: #F0FFE6;
+}
+
+.error {
+    color: #cc715c;
+    font-size: 12px;
+    margin-left: 292px;
+    margin-top: 7px;
+}
+
+ul {
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+ul li a {
+    display: block;
+    padding: 3px;
+    width: 160px;
+    background-color: #036;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.nav ul li {
+    padding-top: 4px;
+}
+
+a.delete {
+    background: url('../images/delete.png') no-repeat center;
+    padding-left: 20px
+}
+
+a.delete:hover {
+    background: url('../images/delete-hover.png') no-repeat center;
+}
+
+a.up {
+    background: url('../images/up.png') no-repeat center;
+    padding-left: 20px
+}
+
+a.up:hover {
+    background: url('../images/up-hover.png') no-repeat center;
+}
+
+a.down {
+    background: url('../images/down.png') no-repeat center;
+    padding-left: 20px
+}
+
+a.down:hover {
+    background: url('../images/down-hover.png') no-repeat center;
+}
+
+a.new {
+    background: url('../images/new.png') no-repeat center;
+    padding-left: 20px
+}
+
+a.new:hover {
+    background: url('../images/new-hover.png') no-repeat center;
+}
+
+#options {
+	float:right;
+	padding:20px;
+}
+
+#logoff, #setting {
+	display:inline;
+}
+
+#logoff a {
+    background: url('../images/logoff.png') no-repeat center;
+    padding: 20px;
+}
+
+#logoff a:hover {
+    background: url('../images/logoff-hover.png') no-repeat center;
+}
+
+#setting a {
+    background: url('../images/setting.png') no-repeat center;
+    padding: 20px;
+}
+
+#setting a.selected {
+    background: url('../images/setting-selected.png') no-repeat center;
+}
+
+#setting a:hover {
+    background: url('../images/setting-hover.png') no-repeat center;
+}
+
+.header ul li a {
+    margin-left: 292px;
+}
+
+a.selected, a.selected:link, a.selected:visited{
+    background-color: #258;
+	color:white;
+}
+
+ul li a:link, ul li a:visited {
+    color: #EEE;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #369;
+    color: #fff;
+}
+
+.admin-content {
+	background: #fff url('../images/faux-column.png') repeat-y 0 0;
+	min-height:600px;
+}
+
+.admin-nav {
+    padding: 20px;
+    float: left;
+    width: 400px;
+    height: 100%;
+    background-color: #eee;
+}
+
+.admin-content-edit {
+    padding: 20px;
+    margin-left: 440px;
+    height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 0px;
+	padding: 5px;
+}
+td a, td a:link, td a:visited {
+    color: #036;
+    text-decoration: none;
+}
+tr {
+	border: 1px solid black;
+}
+
+td.label {
+    width: 170px;
+    text-align: left;
+}
+
+td.label a {
+    width: 95%;
+    display: block;
+    padding-left: 10px;
+}
+
+td.label a:hover {
+    background-color: #369;
+	color:white;
+}
+
+input[type='submit']{
+	width:200px;
+}
